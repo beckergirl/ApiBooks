@@ -1,0 +1,80 @@
+
+.header{
+
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(241, 152, 196);
+    font-size: smaller;
+    padding: 3%;
+}
+
+.mybooks{
+
+    color: rgb(253, 233, 4);
+    text-align: center;
+    font-family: futura;
+    font-size: x-large;
+    padding: 1%;
+  
+}
+.home{
+
+    color: black;
+    text-align: center;
+    font-family: helvetica bold;
+    text-decoration: none;
+    padding: 3%;
+    
+}
+.login{
+
+    color: black;
+    text-align: center;
+    font-family: helvetica bold;
+    text-decoration: none;
+    padding: 3%;
+    
+}
+.registro{
+
+    color: black;
+    text-align: center;
+    font-family: helvetica bold;
+    text-decoration: none;
+    padding: 3%;
+
+}
+.perfil{
+
+    color: black;
+    text-align: center;
+    font-family: helvetica bold;
+    text-decoration: none;
+    padding: 3%;
+}
+.libros{
+
+    color: black;
+    text-align: center;
+    font-family: helvetica bold;
+    text-decoration: none;
+    padding: 3%;
+}
+.modificarLibros{
+
+    color: black;
+    text-align: center;
+    font-family: helvetica bold;
+    text-decoration: none;
+    padding: 3%;
+}
+.añadirLibros{
+
+    color: black;
+    text-align: center;
+    font-family: helvetica bold;
+    text-decoration: none;
+    padding: 3%;
+}

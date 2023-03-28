@@ -1,0 +1,65 @@
+
+<div class="main">
+
+    <div class="padre">
+
+        <div class="caja1">
+
+            <div class="caja1_1">
+             <!--    "../../../assets/img/IMG_6883.JPG" -->
+                    <img class="fotoPerfil" src="{{miUsuario.foto}}"> 
+
+            </div>
+            <div class="caja1_2">
+
+                <div class="nombre">{{miUsuario.nombre}} {{miUsuario.apellidos}}</div>
+
+                <button class="boton"><b>Nombre:</b></button>
+                <input  required="" readonly="readonly" type="text" class="input" [value]="miUsuario.nombre" >
+
+                <button class="boton"><b>Apellidos:</b></button>
+                <input required="" readonly="readonly" type="text" class="input" [value]="miUsuario.apellidos" >
+                
+                <button class="boton"><b>Correos:</b></button>
+                <input required="" readonly="readonly" type="text" class="input" [value]="miUsuario.correo" >
+                
+               
+            </div>
+            
+                               
+
+        </div>
+
+        <div class="caja2">
+
+           <!--  <img class="fondoImagen" src="../../../assets/img/books.jpg"> -->
+           <div class="formulario">
+
+
+                <p class="nombre">Editar Datos:</p>
+            
+                <button class="boton2"><b>Nombre:</b></button>
+                <input required="" type="text" class="input" #nuevoNombre>
+
+                <button class="boton2"><b>Apellidos:</b></button>
+                <input required="" type="text" class="input" #nuevoApellidos>
+              
+                <button class="boton2"><b>Correo:</b></button>
+                <input required="" type="text" class="input" #nuevoCorreo>
+
+                <button class="boton2"><b>Url / foto:</b></button>
+                <input required="" type="text" class="input" #nuevoFoto>
+
+                <button class="boton3" (click)= "enviar(nuevoNombre.value, nuevoApellidos.value,nuevoCorreo.value, nuevoFoto.value)"><b>Modificar</b></button>
+    
+
+            </div>
+
+        </div>
+    
+
+    </div>
+
+    
+ 
+</div>

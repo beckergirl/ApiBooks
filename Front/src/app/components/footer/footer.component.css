@@ -1,0 +1,30 @@
+
+.footer{
+
+  width: 100%;
+
+  background-color:  rgb(241, 152, 196);
+}
+
+.instagram{
+
+  width: 5%;
+  align-items: center;
+  padding: 1%;
+
+}
+
+.facebook{
+
+    width: 5%;
+    align-items: center;
+    padding: 1%;
+}
+
+.pinterest{
+
+  width: 5%;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}

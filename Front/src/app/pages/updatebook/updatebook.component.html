@@ -1,0 +1,45 @@
+
+<div class="padre">
+
+    <img class="fondo" scr="">
+
+
+    <div class="formulario">
+
+        <p class="boton">Id Libro:</p><!-- el primero, por el que hacemos la búsqueda -->
+        <input  class="input" #id_libro>
+
+        <p class="titulo">Modificar Libro:</p>
+
+        <p class="boton">Título:</p>
+        <input  class="input" #titulo>
+
+        <p class="boton">Autor:</p>
+        <input  class="input" #autor>
+
+        <p class="boton">Precio:</p>
+        <input  class="input" #precio>
+
+        <p class="boton">Tipo de Libro:</p>
+        <input  class="input" #tipoLibro>
+
+        <p class="boton">Id Usuario:</p>
+        <input  class="input" #id_usuario>
+
+        <p class="boton">Portada:</p>
+        <input  class="input" #photo>
+
+        <button class="boton2" (click)=" actualizarLibro(titulo.value, autor.value, tipoLibro.value, precio.value, photo.value,id_libro.value, id_usuario.value)">Modificar Libro</button>
+
+        <div>
+
+<!-- DIV VACÍO -->
+
+        </div>
+        
+
+
+
+      
+  
+

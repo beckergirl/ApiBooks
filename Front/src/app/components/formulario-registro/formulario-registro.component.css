@@ -1,0 +1,94 @@
+.padre{
+   
+    height: 100vh;
+    background-color: rgb(243, 212, 217);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.texto{
+
+    background-color: rgb(243, 212, 217);
+    color: black;
+    font-family: helvetica bold;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+
+}
+.boton{
+
+    background-color:rgb(243, 212, 217);
+    color: black;
+    border-bottom: 0ch;
+    border-style: none;
+    font-family: helvetica bold;
+    width: 100%;
+    height: 20%;
+
+
+}
+
+.formulario{
+
+    position: absolute;
+}
+.titulo{
+
+    font-family: helvetica bold;
+    color: black;
+    font-size: x-large;
+    margin: auto;
+
+
+  
+}
+
+
+.input{
+
+    width: 50%;
+    height: 25%;
+    margin: 1%;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    background-color:  rgb(241, 152, 196);
+    align-content: center;
+    font-family: helvetica;
+
+ }
+
+.boton2{
+    
+    width: 50%;
+    height: 15%;
+    margin: 1%;
+    margin-top: 10%;
+    border-radius: 5px;
+    border-style: none;
+    COLOR:rgb(243, 212, 217);
+    background-color:  rgb(0, 0, 0);
+    align-content: center;
+    font-family: helvetica bold;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 5%;
+   
+}
+.boton3{
+    width: 50%;
+    height: 15%;
+    margin: 1%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(243, 212, 217);
+    align-content: center;
+    font-family: helvetica bold;
+    font-size: smaller;
+    text-align: center;
+   
+}

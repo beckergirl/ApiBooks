@@ -1,0 +1,26 @@
+.main{
+
+    background-color:rgb(253, 233, 4);
+
+
+}
+.biblioteca{
+
+    height: 70%;
+    width: 100%;
+    
+
+}
+.texto{
+
+    font-size: 900%;
+    color: rgb(253, 233, 4);
+    font-family:"futura bold" ;
+    font-style: bold;
+    position: absolute;
+    justify-items: center;
+    padding-top: 8%;
+  
+
+
+}

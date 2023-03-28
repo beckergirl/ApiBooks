@@ -1,0 +1,37 @@
+
+
+<div class="padre">
+<!-- hacer el *ngfor / usuario de usuarios-->
+<div class="cajita">
+
+
+    <p class="titulo">Registraté:</p>
+
+    <p class="boton3">Id usuario:</p>
+    <input  class="input" #id_usuario>
+
+    <p class="boton3">Nombre:</p>
+    <input  class="input" #nombre>
+
+    <p class="boton3">Apellidos:</p>
+    <input  class="input" #apellidos>
+
+    <p class="boton3">Correo:</p>
+    <input  class="input" #correo>
+
+    <p class="boton3">foto:</p>
+    <input  class="input" #foto>
+
+    <p class="boton3">Contraseña:</p>
+    <input  class="input" #password>
+
+    <p class="boton3">Confirmar contraseña:</p>
+    <input  class="input" #password>
+
+    <button class="boton2" (click)=" registrarse(id_usuario.value, nombre.value, apellidos.value, correo.value, foto.value, password.value, password.value)">Registrarse</button>
+
+    </div>
+
+ </div>
+
+

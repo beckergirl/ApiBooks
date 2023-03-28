@@ -1,0 +1,146 @@
+
+
+.padre{
+   
+   height: auto;
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   background-color:  rgb(243, 212, 217);
+   align-items: center;
+   
+
+}
+
+.nombre{
+
+   font-size: larger;
+   font-family: Helvetica ;
+   align-items: center;
+   color: rgb(0, 0, 0);
+}
+
+.PortadaLibro{
+
+   width:10% ;
+   border-radius: 5%;
+   justify-content: center;
+   margin-top: 5%;
+   
+} 
+
+.titulo{
+
+   font-size: large;
+   font-family: helvetica;
+   color:black;
+   margin: 1%;
+
+}
+.boton{
+
+   width: 20%;
+   height: 12%;
+   margin: 2%;
+   border-radius: 5px;
+   border-style: none;
+   color:  rgb(243, 212, 217);
+   background-color: black;
+   text-align-last: center;
+   font-family: helvetica;
+   margin-left: 20%;
+   
+}
+
+.input{
+
+   width: 40%;
+   height: 9%;
+   text-align: center;
+   border-radius: 5px;
+   border-style: none;
+   background-color:  rgb(241, 152, 196);
+   align-content: center;
+   font-family: helvetica;
+
+}
+.boton2{
+
+    width: 40%;
+    height: 12%;
+
+    margin: 1%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(241, 152, 196);
+    align-items: center;
+    font-family: helvetica bold;
+    margin-left: 20%;
+ }
+ .boton3{
+
+   width: 60%;
+   height: 30%;
+   margin: 1%;
+   border-radius: 5px;
+   border-style: none;
+   color: rgb(243, 212, 217);
+   background-color:  black;
+   align-items: center;
+   font-family: helvetica bold;
+   margin-left: 20%;
+     text-align: center;
+  
+}
+
+
+ .formulario{
+
+   background-color:  rgb(243, 212, 217);  
+   
+
+ }
+ .subirLibro{
+
+
+   font-size: larger;
+   font-family: Helvetica bold;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+   margin-left: 20%;
+   padding-top: 2%;
+
+ }
+
+ .libros{
+   background-color:  rgb(243, 212, 217); 
+   font-size: larger;
+   font-family: Helvetica;
+   align-items: center;
+   padding-top: 3%;
+   padding-left: 10%;
+   
+ }
+
+ .clase{
+
+  color: yellow;
+ }
+
+ .boton3{
+
+   width: 10%;
+   height: 12%;
+   margin-top: 2%;
+   border-radius: 5px;
+   border-style: none;
+   color:  rgb(243, 212, 217);
+   background-color: black;
+   text-align-last: center;
+   font-family: helvetica;
+   margin-left: 20%;
+   
+}
+
+
+

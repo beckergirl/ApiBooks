@@ -1,0 +1,42 @@
+
+<main class="main">
+     
+  <div class="padre">
+
+   
+    <div class="cajaLibros">
+  
+
+      <div class="tarjetaLibros2">
+
+
+        <p class="titulo">Añadir Libro:</p>
+
+        <p class="boton3">Título:</p>
+        <input  class="input" #titulo>
+
+        <p class="boton3">Autor:</p>
+        <input  class="input" #autor>
+
+        <p class="boton3">Precio:</p>
+        <input  class="input" #precio>
+
+        <p class="boton3">Tipo de Libro:</p>
+        <input  class="input" #tipoLibro>
+
+        <p class="boton3">Id Libro:</p>
+        <input  class="input" #id_libro>
+
+        <p class="boton3">Id Usuario:</p>
+        <input  class="input" #id_usuario>
+
+        <p class="boton3">Portada:</p>
+        <input  class="input" #photo>
+
+        <button class="boton2" (click)=" subirLibro(titulo.value, tipoLibro.value, autor.value, precio.value, photo.value, id_libro.value, id_usuario.value)">Añadir Libro</button>
+
+        </div>
+
+     </div>
+
+</div>

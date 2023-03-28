@@ -1,0 +1,64 @@
+<main class="main">
+     
+ <div class="padre">
+
+        <div class="cajaBuscador">
+
+          <div clas="buscador">
+
+          <button class="boton" (click)=" buscarLibro(id_libro.value)"><b>Buscador por ID Libro</b></button>
+          <input required="" type="text" class="input" #id_libro>
+
+
+          </div>
+
+
+        <div class="cajaLibros">
+
+          <div class="tarjetaLibros" *ngFor="let libro of libros;let par = even;" [ngClass]="{'clase':par}">
+         
+  <!-- interneeeeet <tr *ngFor="let item of lista;let impar = odd;let par = even;" [ngClass]="{azul:par,verde:impar}">
+              <td>{{item}}</td> -->
+
+         
+
+              <!-- <div clas="Xborrar"> para borar el libro usando Libros Service-->
+  
+              <!-- <input required="" type="text" class="input" #id_libro> -->
+              <button class="boton3" (click)=" borrarLibro(libro.id_libro)"><b>X</b></button>
+            
+  
+              <img class="PortadaLibro" src="{{ libro.photo }}">
+   
+              <p class="boton2"><b>{{ libro.titulo }}</b></p>
+
+              <p class="boton2"><b>{{ libro.autor }}</b></p>
+       
+              <p class="boton2"><b>{{ libro.precio }} €</b></p>
+          
+              <p class="boton2"><b>{{ libro.tipoLibro }}</b></p>
+   
+              <p class="boton2"><b>{{ libro.id_libro | referencia }}</b></p>
+      
+              <p class="boton2" ><b>{{ libro.id_usuario}}</b></p>
+              
+
+            </div>
+          </div>
+          </div>
+          
+          <div class="libros" *ngIf="libros.length===0"> <!-- antes Libros -->
+
+             <div>¡NO HAY LIBROS!</div>
+
+          </div>
+
+    </div>
+
+
+
+            
+     
+       
+
+

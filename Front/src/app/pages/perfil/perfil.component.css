@@ -1,0 +1,142 @@
+.main{
+
+     height: 92vh;
+     /* width: 100%; */
+}
+
+.padre{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(243, 212, 217);
+    /* border: solid 2px cornflowerblue; */
+}
+.caja1{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+  /*   border: solid 2px rgb(225, 100, 237); */
+    background-color:  rgb(243, 212, 217);
+
+}
+
+.caja2{
+
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    padding-top: 10%;
+   /*  border: solid 2px rgb(225, 100, 237); */
+
+}
+.card-body{
+
+    font-size: larger;
+    font-family: Helvetica bold;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.formulario{
+
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+   /*  border: solid 20px  rgb(243, 212, 217);  */
+}
+.fondoImagen{
+
+    width: 100%;
+    position: relative;
+}
+.caja1_1{
+
+    justify-content: center;
+    display: flex;
+    height: 50%;
+   /*  border: solid 2px rgb(225, 100, 237); */
+}
+.fotoPerfil{
+
+    height: 70%;
+    width: auto;
+    border-radius: 24%;
+    justify-content: center;
+    margin-top: 12%;
+    
+} 
+.caja1_2{
+
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    height: 50%;
+   /*  border: solid 2px rgb(225, 100, 237); */
+}
+
+
+.nombre{
+
+    font-size: large;
+    font-family: helvetica bold;
+    color:black;
+    margin: 1%;
+
+}
+.boton{
+
+    width: 70%;
+    height: 12%;
+    /* margin: 1%; */
+    margin-top: 2%;
+    border-radius: 5px;
+    border-style: none;
+    background-color:  rgb(241, 152, 196);
+    align-items: center;
+}
+.boton2{
+
+    width: 70%;
+    height: 12%;
+   /*  margin: 1%; */
+    border-radius: 5px;
+    border-style: none;
+    background-color:  rgb(241, 152, 196);
+    
+    justify-content: center;
+}
+.input{
+
+    width: 70%;
+    height: 10%;
+   /*  margin: 1%; */
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(243, 212, 217);
+    text-align: center;
+    justify-content: center;
+
+
+}
+.boton3{
+
+    width: 70%;
+    height: 12%;
+  /*   margin: 1%; */
+    border-radius: 5px;
+    border-style: none;
+    color:  rgb(243, 212, 217);
+    background-color:  rgb(0, 0, 0);
+}
+
